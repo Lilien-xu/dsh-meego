@@ -1,0 +1,4 @@
+# Mount the Meego tool bundle into the web profile.
+- insert:
+    - id: meego
+      name: dsh-meego

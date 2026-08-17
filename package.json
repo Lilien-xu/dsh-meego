@@ -1,0 +1,46 @@
+{
+  "name": "dsh-meego",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness tools for Feishu Project (Meego): query, plan, create, update, and transition work items.",
+  "type": "module",
+  "main": "dsh/index.js",
+  "exports": {
+    ".": "./dsh/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dsh",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "meego",
+    "meegle",
+    "feishu",
+    "lark",
+    "project-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/dsh-meego.git"
+  },
+  "homepage": "https://github.com/your-org/dsh-meego#readme",
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
