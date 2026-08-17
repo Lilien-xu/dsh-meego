@@ -4,6 +4,12 @@ DeepSeek Harness plugin for Feishu Project (Meego). It gives the agent a small, 
 
 中文说明：[README.zh-CN.md](README.zh-CN.md)
 
+## 中文简介
+
+`dsh-meego` 是一个面向飞书项目（Meego）的 DeepSeek Harness 插件，支持查找项目、查询工作项、查看个人待办，以及在用户确认后创建、更新或流转工作项。
+
+插件通过本机已登录的 `meegle` CLI 工作，不会收集、保存或转发 OAuth 凭证。安装前请先完成 Meego CLI 登录，再按下方命令安装和启动插件。
+
 ## What it does
 
 - `meego_project_search` — resolve a project name to its authoritative project key.
