@@ -2,6 +2,8 @@
 
 DeepSeek Harness plugin for Feishu Project (Meego). It gives the agent a small, explicit tool surface for finding projects, querying work items, checking personal todos, and—only after user confirmation—creating, updating, or transitioning work items.
 
+中文说明：[README.zh-CN.md](README.zh-CN.md)
+
 ## What it does
 
 - `meego_project_search` — resolve a project name to its authoritative project key.
