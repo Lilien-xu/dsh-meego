@@ -33,7 +33,7 @@ If your organization uses another Meego host, pass that host to `meegle auth log
 For a GitHub-only install before publishing to npm, push this repository as a public repo and use:
 
 ```bash
-npx -y @deepseek-ai/dsh plugin --profile web add github:OWNER/dsh-meego
+npx -y @deepseek-ai/dsh plugin --profile web add github:Lilien-xu/dsh-meego
 ```
 
 ## Safety contract
