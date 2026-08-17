@@ -29,9 +29,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/dsh-meego.git"
+    "url": "https://github.com/Lilien-xu/dsh-meego.git"
   },
-  "homepage": "https://github.com/your-org/dsh-meego#readme",
+  "homepage": "https://github.com/Lilien-xu/dsh-meego#readme",
   "scripts": {
     "test": "node test/smoke.mjs"
   },
